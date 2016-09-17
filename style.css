@@ -1,0 +1,74 @@
+body {
+    background-image: url("http://www.spottedbylocals.com/wp-content/uploads/Venice-Sunset-by-Pedro-Szekely.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.quote-box {
+    margin-top: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px 10px 1px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-width: 1px;
+    width: 90%;
+    border-radius: 25px;
+    min-width: 200px;
+    max-width: 600px;
+    height: auto;
+}
+
+.btn-new-quote {
+    float: right;
+}
+
+.btn-twitter {
+    float: left;
+}
+
+.quote-left {
+    font-size: 2em !important;
+    margin-right: 0.4em;
+    color: rgb(51, 122, 183);
+}
+
+.quote-text {
+    font-family: Lobster, Monospace;
+    font-size: 3.0em;
+}
+
+.quote-author {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.text-footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15em;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    color: #FFFFFF;
+    background-color: rgba(34, 39, 43, 0.85);
+}
+
+.main-box {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 500px;
+}
+
+.footer-logos i {
+    border: 1px solid #646464;
+    border: 1px solid rgba(100, 100, 100, .3);
+    border-radius: 25%;
+    color: #646464;
+    font-size: 1.1em;
+    margin-right: .25em;
+    padding: .4em;
+}
