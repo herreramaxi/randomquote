@@ -72,3 +72,14 @@ body {
     margin-right: .25em;
     padding: .4em;
 }
+
+
+@media only screen and (max-width: 500px) {
+    .quote-text {
+        font-size: 1.5em;
+    }
+
+    .text-footer {
+        font-size: 0.9em;
+    }
+}
