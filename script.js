@@ -1,13 +1,13 @@
 function getQuote() {
     $.ajax({
         headers: {
-            "X-Mashape-Key": "hS2nakiehhmshJ9Z8Nwf8o8NisYJp1nMCz7jsnWmjxOGiGkfZn",
+            "X-Mashape-Key": "GGWcKKX6TAmsh1JEjHvONH6A68XHp1ZVzSQjsn9lfsx11tUKGz",
             "Accept": "application/json",
             "Content-Type": "application/x-www-form-urlencoded"
         },
         url: 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous',
         success: function (response) {
-            var r = JSON.parse(response);
+            var r = JSON.parse(JSON.stringify(response))[0];
             currentQuote = r.quote;
             currentAuthor = r.author;
 
